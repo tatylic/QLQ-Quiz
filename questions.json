@@ -1,7 +1,6 @@
 [
     {
         "id": 1,
-        "category": "Quản lý quỹ",
         "question": "Tổng giám đốc công ty chứng khoán phải đáp ứng các tiêu chuẩn sau đây:",
         "options": {
             "A": "Có chứng chỉ hành nghề môi giới chứng khoán",
@@ -14,7 +13,6 @@
     },
     {
         "id": 2,
-        "category": "Chứng khoán",
         "question": "Công ty chứng khoán nước ngoài và công ty quản lý quỹ nước ngoài được lập bao nhiêu chi nhánh tại Việt Nam?",
         "options": {
             "A": "01",
