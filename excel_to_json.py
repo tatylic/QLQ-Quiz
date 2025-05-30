@@ -10,7 +10,6 @@ questions = []
 for index, row in df.iterrows():
     question = {
         'id': int(row['id']),
-        'category': str(row.get('category', 'Chung')),  # Mặc định là 'Chung' nếu không có cột category
         'question': str(row['question']),
         'options': {
             'A': str(row['A']),
