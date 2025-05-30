@@ -4,7 +4,7 @@ let score = 0;
 let highScore = localStorage.getItem('highScore') || 0;
 let selectedOption = null;
 let selectedQuestions = [];
-let timeLeft = 30;
+let timeLeft = 600;
 let timerId;
 let userAnswers = [];
 
@@ -80,7 +80,7 @@ function loadQuestion() {
     document.getElementById('feedback').innerText = '';
     document.getElementById('next-btn').disabled = true;
     selectedOption = null;
-    timeLeft = 30;
+    timeLeft = 600;
     document.getElementById('time-left').textContent = timeLeft;
 
     startTimer();
