@@ -28,7 +28,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-#timer, #score {
+#progress, #timer, #score {
     font-size: 1.1em;
     margin-bottom: 10px;
 }
@@ -83,6 +83,10 @@ h1 {
 #detailed-results {
     margin-top: 20px;
     text-align: left;
+}
+
+#scoreChart {
+    margin: 20px auto;
 }
 
 select {
